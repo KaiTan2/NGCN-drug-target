@@ -14,6 +14,7 @@ from sklearn.model_selection import train_test_split, StratifiedKFold
 import sys
 from optparse import OptionParser
 from numpy import linalg as la
+from model import VGAE, GATModelAE
 from sklearn.preprocessing import minmax_scale,scale,normalize
 
 parser = OptionParser()
